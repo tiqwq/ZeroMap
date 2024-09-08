@@ -1,0 +1,231 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 20000,
+    "appName": "ZeroMap",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.1"
+    },
+    "icon": "icon.png",
+    "vender": "zepp",
+    "description": "a ZeroMap"
+  },
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "targets": {
+    "390x450-amazfit-gts-3": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "Zurich",
+          "deviceSource": 224
+        },
+        {
+          "name": "ZurichW",
+          "deviceSource": 225
+        }
+      ],
+      "designWidth": 390
+    },
+    "454x454-amazfit-gtr-3": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "Verona",
+          "deviceSource": 226
+        },
+        {
+          "name": "VeronaW",
+          "deviceSource": 227
+        }
+      ],
+      "designWidth": 454
+    },
+    "480x480-amazfit-gtr-3-pro": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "Madrid",
+          "deviceSource": 229
+        },
+        {
+          "name": "MadridW",
+          "deviceSource": 230
+        },
+        {
+          "name": "Madrid2",
+          "deviceSource": 6095106
+        }
+      ],
+      "designWidth": 480
+    },
+    "194x368-amazfit-band-7": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "Bari(国际标准版本)",
+          "deviceSource": 254
+        }
+      ],
+      "designWidth": 194
+    },
+    "466x466-amazfit-gtr-4": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "Berlin",
+          "deviceSource": 7930112
+        },
+        {
+          "name": "BerlinW",
+          "deviceSource": 7930113
+        }
+      ],
+      "designWidth": 466
+    },
+    "390x450-amazfit-gts-4": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "Lille",
+          "deviceSource": 7995648
+        },
+        {
+          "name": "Lillew",
+          "deviceSource": 7995649
+        }
+      ],
+      "designWidth": 390
+    },
+    "480x480-amazfit-cheetah-pro": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "Cheetah",
+          "deviceSource": 8126720
+        },
+        {
+          "name": "CheetahW",
+          "deviceSource": 8126721
+        }
+      ],
+      "designWidth": 480
+    },
+    "454x454-amazfit-cheetah-round": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "Swift",
+          "deviceSource": 8192256
+        },
+        {
+          "name": "SwiftW",
+          "deviceSource": 8192257
+        }
+      ],
+      "designWidth": 454
+    },
+    "390x450-amazfit-cheetah-square": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "SwordfishW",
+          "deviceSource": 8257793
+        }
+      ],
+      "designWidth": 390
+    },
+    "480x480-amazfit-balance": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "Monaco",
+          "deviceSource": 8519936
+        },
+        {
+          "name": "MonacoWN",
+          "deviceSource": 8519937
+        },
+        {
+          "name": "MonacoW",
+          "deviceSource": 8519939
+        }
+      ],
+      "designWidth": 480
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "ZeroMap"
+    }
+  },
+  "defaultLanguage": "en-US"
+}
